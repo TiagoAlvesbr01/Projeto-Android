@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu site</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(207, 215, 204, 0.452);
+            margin:1px 1px 1px 1px;   
+                 
+        
+        }
+        @font-face {
+            font-family: robo;
+            src: url(robo.ttf);
+        
+        }
+
+        header {
+            background-color:rgb(14, 101, 14) ;
+            padding: 3px;
+            margin: 1px 1px 1px 1px;
+        }
+        
+        
+            
+            
+
+        #principal {
+            color: rgb(255, 255, 255);
+            text-align: center;
+            background-image: linear-gradient(To top, #307A20 #A1FB8C#63FA41#3F7A32);
+            
+        
+        }
+
+        article#secundario {
+            background-color: aquamarine;
+            padding: 2px 2px 2px 2px;
+            margin: 5px 5px 5px 5px;
+            border-radius: 10px;
+            box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.472);
+        }
+        
+        
+        h1#robo {
+            font-family: robo;
+        } 
+        h2 {
+            font-family: robo;
+            background-color: rgba(19, 177, 19, 0.466);
+        }
+    
+        nav {
+           padding: 1px;
+           margin: 5px;
+        }
+    
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            padding: 20px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: rgb(255, 255, 255);
+            border: 10px;
+            padding: 5px;
+            margin: 0px 100px 20px 100px;
+        
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+        }
+        #para {
+            background-color: rgb(11, 84, 11);
+            color: white;
+            padding: 10px 1px 10px 1px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+         
+      <h1 id="principal"> CURIOSIDADES DE TECNOLOGIA</h1>
+      <h3 id="principal"> Tudo aquilo que voçê sempre quis saber sobre o mundo Tech, em um único lugar. </h4>
+    
+    </header>
+    
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Noticias</a>
+        <a href="#"> Curiosidades</a>
+        <a href="#">Fale Conosco</a>
+    </nav>
+    
+    <main>
+         <section id="assuntos">
+            <article>
+                <h1 id="robo">HISTORIA DO MASCOTE DO ANDROID</h1>
+                <p> Provalvemente voce sabe que o sistema operacional Android,mantido pelo goole é um dos mais utilizados para dispositivos moveis em todo o mundo. Mas, talvez voçe não saiba que o seu simpatico mascote tem um nome e uma historia muito curiosaa ? Pois acompanhe esse artigo para aprender muitas coisa sobre robozinho.</p>
+               
+            </article>
+            <article>
+                <h2>Primeira versao</h2>
+                <p>A primeira tentativa de criar um mascote foi em 2007 e veio de um desenvolvedor chamado Dan Morril. Ele conta que abriu o inkscape. (software livre para cetorizaçao de imagens ) e criou sua propria versao do robo. O objetivo era apenas personificar o sitema para a sua equipe, não existia nenhuma solicitaçãao da empresa para a criação de um mascote</p>
+                <img src="dandoids.png">
+                <p> Essa primeira versaao bizzara até foi batizada em homenagem ao seu criador: seriam os Dandroids. </p>
+
+            </article>
+            <article>
+                <h2> Surge um novo mascote</h2>
+               <p> A ideia de ter um mascote foi amadurecendo e a missao foi passada para a uma profissional da área. A ilustradora Russa Irina Blok. Tambem funcionria do Google, ficou com aa missao de representar o pequeno robô de uma maneira mais agradavel.</p>
+                <img src="irina.jpg">
+               <p> A ideia principal de Irina era representar tudo graficamente com poucos traços e de uma forma mais chapada. O desenho também deveria gerar identificação rápida com quem o olha. Surgiu então o Bugdroid. O novo marconte do Android.</p>
+               <img src="android.jpg">
+               <p> A Principal inspiraração para os traços do novo Bugdroid veio daqueles bonequinhos que ilustram portes de banheiro para indicar o gênero de cada porta. Conta a linda que a artissta estava criando em sua mesa no escritorio do Google e olhou para o lado dos banheiros e a identificação foi imediata:simples, limpo, objetivo.</p>
+            </article>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/l2UDgpLz20M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+      </section>
+    
+    <article id="secundario">
+        <p id="para"> Quer aprender mais ?</p>
+        
+        <p> Outro assunto curioso em relação ao Androis é que cada versão sempre foi nomeada em homenagem a um doce, em ordem alfabetica a partir da versão 1.5 até a 9.0</p>
+        <ul>
+            <li>1.5-Cupcake</li>
+            <li>1.6-Donut</li>
+            <li>3.0-Eclar</li>
+            <li>2.2-Froyo</li>
+            <li>2.3-Girgerbread</li>
+            <li>3.0-Honeycomb</li>
+            <li>4.0-Joe</li>
+        </ul>
+        <p> Infelizmente, o Android Q não existiu, pois o Google resolveu pôr fim a essa diverdida prática e começou a usar numerções, o que deu origem ao Androis 10.
+            <p> Acesse aqui o site <a href="#">Android History</a> para conhecer a sequência das versões "adocicadas e o que cada uma trouxe para o sistema Android</p>
+        </article>
+        <article>       
+            <p> Então é isso! Espero que voçê tenha gostado do nosso artigo com essaa curiosidade sobre o sistema <a href="#">Android</a> e seu simpatico mascote.</p>
+
+        
+    </article>  
+</main>
+<footer>
+    <p> Desenvolvido por ComercialAlves</p>
+</footer>
+</body>
+
+</html>
