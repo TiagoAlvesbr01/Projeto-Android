@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 280px) and (max-width: 500px) {
+
+
+#img1 {
+    width: 260px;
+}
+#img2 {
+    width: 260px;
+}
+#img3 {
+    width: 260px;
+}
+body {
+    background-color: blue;
+}
+}
