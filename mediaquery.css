@@ -4,22 +4,25 @@
 
 
 header {
-    width: 350px;
+    width: 400px;
 }
 nav {
-   width: 350px;
+   width: 400px;
 }
 body, html {
-    width: 450px;
+    width: 500px;
 }
 #img1 {
-    width: 245px;
+    width: 270px;
 }
 #img2 {
-    width: 245px;
+    width: 270px;
 }
 #img3 {
-    width: 240px;
+    width: 270px;
+}
+#img4 {
+    width: 270px;
 }
 
 }
