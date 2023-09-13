@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 280px) and (max-width: 500px) {
+@media screen and (min-width: 280px) and (max-width: 600px) {
 
 
 header {
@@ -9,8 +9,10 @@ header {
 nav {
    width: 450px;
 }
-body, html {
-    width: 400px;
+
+}
+body {
+    width: 550px;
 }
 #img1 {
     width: 193px;
